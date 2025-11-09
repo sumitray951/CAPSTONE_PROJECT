@@ -1,0 +1,35 @@
+2025-11-09T07:41:14.449547+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:41:14.449555+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:41:14.452040+00:00 DESKTOP-3M3C4PS kernel: Failed to register legacy timer interrupt
+2025-11-09T07:41:14.452741+00:00 DESKTOP-3M3C4PS kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2025-11-09T07:41:14.453008+00:00 DESKTOP-3M3C4PS kernel: RAS: Correctable Errors collector initialized.
+2025-11-09T07:41:14.453134+00:00 DESKTOP-3M3C4PS kernel: WSL (242) ERROR: CheckConnection: getaddrinfo() failed: -5
+2025-11-09T07:41:14.453136+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2025-11-09T07:41:14.453166+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2025-11-09T07:41:14.453171+00:00 DESKTOP-3M3C4PS kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2025-11-09T07:41:14.453172+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2025-11-09T07:41:14.453182+00:00 DESKTOP-3M3C4PS kernel: Failed to connect to bus: No such file or directory
+2025-11-09T07:41:14.453188+00:00 DESKTOP-3M3C4PS kernel: message repeated 2 times: [ Failed to connect to bus: No such file or directory]
+2025-11-09T07:41:14.756111+00:00 DESKTOP-3M3C4PS snapd[195]: helpers.go:159: error trying to compare the snap system key: system-key missing on disk
+2025-11-09T07:43:48.053662+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2025-11-09T07:43:48.053663+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2025-11-09T07:43:48.053667+00:00 DESKTOP-3M3C4PS kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2025-11-09T07:43:48.053668+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2025-11-09T07:43:48.053678+00:00 DESKTOP-3M3C4PS kernel: Failed to connect to bus: No such file or directory
+2025-11-09T07:43:48.054011+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:43:48.054016+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:51:50.590792+00:00 DESKTOP-3M3C4PS kernel: Failed to register legacy timer interrupt
+2025-11-09T07:51:50.591155+00:00 DESKTOP-3M3C4PS kernel: ACPI: _OSC evaluation for CPUs failed, trying _PDC
+2025-11-09T07:51:50.591315+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.path - Process error reports when automatic reporting is enabled (file watch) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:51:50.591322+00:00 DESKTOP-3M3C4PS systemd[1]: apport-autoreport.timer - Process error reports when automatic reporting is enabled (timer based) was skipped because of an unmet condition check (ConditionPathExists=/var/lib/apport/autoreport).
+2025-11-09T07:51:50.591631+00:00 DESKTOP-3M3C4PS kernel: RAS: Correctable Errors collector initialized.
+2025-11-09T07:51:50.591821+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_is_feature_enabled: Ioctl failed: -22
+2025-11-09T07:51:50.591827+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22
+2025-11-09T07:51:50.591831+00:00 DESKTOP-3M3C4PS kernel: message repeated 2 times: [ misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -22]
+2025-11-09T07:51:50.591832+00:00 DESKTOP-3M3C4PS kernel: misc dxg: dxgk: dxgkio_query_adapter_info: Ioctl failed: -2
+2025-11-09T07:51:50.591839+00:00 DESKTOP-3M3C4PS kernel: Failed to connect to bus: No such file or directory
+2025-11-09T07:51:23.199593+00:00 DESKTOP-3M3C4PS kernel: WSL (235) ERROR: CheckConnection: getaddrinfo() failed: -5
+2025-11-09T07:59:07.413431+00:00 DESKTOP-3M3C4PS python3[455]: ["2025-11-09T07:59:07.412", "WARNING", "ubuntupro.system", "get_kernel_info", 166, "failed to process /proc/version_signature.", {}]
+2025-11-09T07:59:07.415451+00:00 DESKTOP-3M3C4PS python3[455]: ["2025-11-09T07:59:07.415", "WARNING", "ubuntupro.system", "get_kernel_info", 175, "Failed to parse kernel: 6.6.87.2-microsoft-standard-WSL2", {}]
+2025-11-09T08:00:32.394268+00:00 DESKTOP-3M3C4PS wsl-pro-service[2121]: #033[33mWARNING#033[0m Could not ensure valid Landscape configuration: could not ensure valid Landscape configuration: could not register distro to Landscape: could not enable Landscape: /usr/bin/landscape-config: error: exit status 2.
+2025-11-09T08:00:32.394522+00:00 DESKTOP-3M3C4PS wsl-pro-service[2121]: landscape-config: error: no such option: --register-if-needed

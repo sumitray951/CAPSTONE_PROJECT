@@ -1,4 +1,5 @@
-# CAPSTONE_PROJECT
+# Capstone_ProjectSivakumarpradhan
+
 System Maintenance & Automation Scripts (Bash Utilities)
 
 This repository provides a collection of Bash-based automation scripts designed to streamline routine system operations such as file backups, log monitoring, and system updates. The project helps users simplify administrative workflows by enabling one-click execution of essential maintenance tasks in Linux or WSL environments.
@@ -6,9 +7,10 @@ This repository provides a collection of Bash-based automation scripts designed 
 The suite is highly modular, fully command-line driven, and suitable for beginners, system administrators, and developers who want lightweight automation without depending on heavy tooling.
 
 Key Features
+1. Automated Backup System
 
-Automated Backup System
-The Backup.sh script creates timestamped compressed backups of a defined source directory. It performs validation on the source path, generates .tar.gz archives, and ensures the backup folder exists before storing the files.
+The Backup.sh script creates timestamped compressed backups of a defined source directory.
+It performs validation on the source path, generates .tar.gz archives, and ensures the backup folder exists before storing the files.
 
 Validates source directory
 
@@ -18,11 +20,12 @@ Uses tar for optimized compression
 
 Designed for reuse inside other scripts
 
-Reference:
+Reference: 
 
 Backup
 
-Log Monitoring & Error Detection
+2. Log Monitoring & Error Detection
+
 The log_monitor.sh script scans the system log (/var/log/syslog) and extracts occurrences of critical events such as errors, failures, and warnings.
 
 Uses pattern-based filtering with grep
@@ -33,15 +36,18 @@ Supports quick diagnosis of WSL and Ubuntu issues
 
 Helps identify kernel, ACPI, and snap-related errors
 
-Reference: Script:
+Reference:
+Script: 
 
 log_monitor
 
-Sample log output:
+
+Sample log output: 
 
 alerts
 
-System Update & Cleanup Automation
+3. System Update & Cleanup Automation
+
 The update_cleanup.sh script performs system updates and automated cleanup in one step.
 
 Runs apt update and apt upgrade
@@ -50,11 +56,12 @@ Removes unused packages (autoremove, autoclean)
 
 Ensures the system stays optimized and free from clutter
 
-Reference:
+Reference: 
 
 update_cleanup
 
-Interactive Maintenance Menu
+4. Interactive Maintenance Menu
+
 The maintenance.sh script provides a user-friendly, menu-driven interface that integrates all automation utilities.
 
 Run backups
@@ -67,27 +74,37 @@ Exit menu loop safely
 
 This script is designed as the main entry point for daily or weekly maintenance operations.
 
-Reference:
+Reference: 
 
 maintenance
 
-File Structure . ├── Backup.sh # Automated backup utility ├── log_monitor.sh # Log scanning & alert extraction ├── update_cleanup.sh # Update & cleanup automation ├── maintenance.sh # Menu-driven interface for all scripts ├── alerts.log # Auto-generated log file (sample output) └── backup_*.tar.gz # Generated backup archives (example)
+File Structure
+.
+├── Backup.sh               # Automated backup utility
+├── log_monitor.sh         # Log scanning & alert extraction
+├── update_cleanup.sh      # Update & cleanup automation
+├── maintenance.sh         # Menu-driven interface for all scripts
+├── alerts.log             # Auto-generated log file (sample output)
+└── backup_*.tar.gz        # Generated backup archives (example)
 
 How to Use
+1. Make scripts executable
+chmod +x *.sh
 
-Make scripts executable chmod +x *.sh
+2. Run the main maintenance suite
+./maintenance.sh
 
-Run the main maintenance suite ./maintenance.sh
-
-Run scripts individually
+3. Run scripts individually
 
 Backup:
 
 ./Backup.sh
 
+
 Monitor logs:
 
 ./log_monitor.sh
+
 
 System update:
 
